@@ -109,7 +109,6 @@ const AboutSection = ({
             {description}
           </p>
         </div>
-
         {/* Features */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {features.map((feature, index) => (
@@ -131,32 +130,9 @@ const AboutSection = ({
             </Card>
           ))}
         </div>
-
         {/* Team Section */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-center mb-8">Meet Our Team</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center text-center"
-              >
-                <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-primary/20">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="text-xl font-semibold">{member.name}</h4>
-                <p className="text-gray-600">{member.position}</p>
-              </div>
-            ))}
-          </div>
-        </div>
 
         <Separator className="my-8" />
-
         {/* Contact Information */}
         <div className="grid-cols-1 md:grid-cols-2 gap-8 items-center flex">
           <div>
