@@ -74,8 +74,8 @@ const ContactUsPage: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="font-medium text-lg">Email</h3>
-                      <p className="text-gray-600">info@grupoolimpia.com</p>
-                      <p className="text-gray-600">support@grupoolimpia.com</p>
+                      <p className="text-gray-600">info@grupo-olimpia.com</p>
+                      <p className="text-gray-600">support@grupo-olimpia.com</p>
                     </div>
                   </div>
 

@@ -33,7 +33,7 @@ interface FooterProps {
 }
 
 const Footer = ({
-  companyName = "Grupo Olimp.IA",
+  companyName = "Grupo Olimpia",
   companyLogo = "/vite.svg",
   socialLinks = {
     facebook: "#",
@@ -42,7 +42,7 @@ const Footer = ({
     linkedin: "#",
   },
   contactInfo = {
-    email: "info@grupoolimpia.com",
+    email: "info@grupo-olimpia.com",
     phone: "+57 123 456 7890",
     address: "Calle 10 #30-45, El Poblado, Medellín, Colombia",
   },
