@@ -200,7 +200,6 @@ const ActiveLivingGuide: React.FC = () => {
     <div className="min-h-screen bg-white">
       {/* Fixed Header */}
       <Header />
-
       {/* Main Content with padding for fixed header */}
       <main className="pt-20">
         {/* Hero Banner */}
@@ -216,7 +215,6 @@ const ActiveLivingGuide: React.FC = () => {
             </p>
           </div>
         </div>
-
         {/* Back to Neighborhoods */}
         <div className="bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -230,7 +228,6 @@ const ActiveLivingGuide: React.FC = () => {
             </Button>
           </div>
         </div>
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -333,29 +330,7 @@ const ActiveLivingGuide: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* Neighborhood Map */}
-        <section className="py-8 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl font-bold mb-6 text-center">
-              Active Living Neighborhoods Map
-            </h2>
-            <div className="h-[500px] rounded-lg overflow-hidden shadow-md">
-              <ColombiaMap
-                markers={activeNeighborhoods.map((neighborhood) => ({
-                  id: neighborhood.id,
-                  latitude: neighborhood.latitude,
-                  longitude: neighborhood.longitude,
-                  title: neighborhood.name,
-                  price: neighborhood.averageRent,
-                }))}
-                height="100%"
-                width="100%"
-                className="rounded-lg"
-              />
-            </div>
-          </div>
-        </section>
 
         {/* Neighborhood Cards */}
         <section className="py-16 bg-white">
@@ -529,7 +504,6 @@ const ActiveLivingGuide: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* Active Living Tips */}
         <section className="py-16 bg-green-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -594,7 +568,6 @@ const ActiveLivingGuide: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* CTA Section */}
         <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -616,7 +589,6 @@ const ActiveLivingGuide: React.FC = () => {
           </div>
         </section>
       </main>
-
       {/* Footer */}
       <Footer />
     </div>
