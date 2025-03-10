@@ -21,7 +21,6 @@ const OurTeamPage: React.FC = () => {
     <div className="min-h-screen bg-white">
       {/* Fixed Header */}
       <Header />
-
       {/* Main Content with padding for fixed header */}
       <main className="pt-20">
         {/* Hero Banner */}
@@ -36,7 +35,6 @@ const OurTeamPage: React.FC = () => {
             </p>
           </div>
         </div>
-
         {/* Team Introduction */}
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -232,7 +230,6 @@ const OurTeamPage: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* How We Work Section */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -359,22 +356,8 @@ const OurTeamPage: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* Join Our Team CTA */}
-        <section className="py-16 bg-primary/5">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">Join Our Team</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              We're always looking for talented individuals who are passionate
-              about real estate and technology
-            </p>
-            <Button size="lg" className="px-8">
-              View Open Positions
-            </Button>
-          </div>
-        </section>
       </main>
-
       {/* Footer */}
       <Footer />
     </div>

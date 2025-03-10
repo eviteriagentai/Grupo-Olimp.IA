@@ -4,6 +4,10 @@ import Footer from "./Footer";
 import AboutSection from "./AboutSection";
 import Testimonials from "./Testimonials";
 import { Button } from "@/components/ui/button";
+import { MapPin } from "lucide-react";
+import { Phone } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Globe } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 
 const AboutUsPage: React.FC = () => {
@@ -11,7 +15,6 @@ const AboutUsPage: React.FC = () => {
     <div className="min-h-screen bg-white">
       {/* Fixed Header */}
       <Header />
-
       {/* Main Content with padding for fixed header */}
       <main className="pt-20">
         {/* Hero Banner */}
@@ -27,7 +30,6 @@ const AboutUsPage: React.FC = () => {
             </p>
           </div>
         </div>
-
         {/* About Section */}
         <AboutSection
           title="Our Story"
@@ -60,7 +62,6 @@ const AboutUsPage: React.FC = () => {
             website: "www.grupoolimpia.com",
           }}
         />
-
         {/* Mission & Values */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -147,31 +148,12 @@ const AboutUsPage: React.FC = () => {
             </div>
           </div>
         </section>
-
         {/* Testimonials */}
         <Testimonials
           title="What Our Clients Say"
           subtitle="Hear from people who found their perfect home through our AI-powered platform"
         />
-
-        {/* CTA Section */}
-        <section className="py-16 bg-primary/5">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">
-              Ready to Find Your Perfect Property?
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              Let our AI-powered platform match you with properties that truly
-              fit your lifestyle and preferences
-            </p>
-            <Button size="lg" className="px-8">
-              Start AI Matching
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </div>
-        </section>
       </main>
-
       {/* Footer */}
       <Footer />
     </div>

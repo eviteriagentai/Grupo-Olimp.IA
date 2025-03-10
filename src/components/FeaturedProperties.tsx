@@ -175,7 +175,6 @@ const FeaturedProperties = ({
             </Button>
           </div>
         </div>
-
         {/* Featured Properties Carousel */}
         <div className="relative">
           <Carousel
@@ -214,7 +213,6 @@ const FeaturedProperties = ({
             <CarouselNext className="right-0 bg-white/80 hover:bg-white" />
           </Carousel>
         </div>
-
         {/* View All Button */}
         <div className="flex justify-center mt-10">
           <Button variant="outline" onClick={onViewAll} className="group">
@@ -222,39 +220,7 @@ const FeaturedProperties = ({
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
-
         {/* Testimonial */}
-        <div className="mt-16 bg-gray-50 p-8 rounded-lg">
-          <div className="flex items-center mb-4">
-            <div className="flex">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <Star
-                  key={star}
-                  className="h-5 w-5 fill-amber-400 text-amber-400"
-                />
-              ))}
-            </div>
-            <span className="ml-2 text-gray-700 font-medium">5.0 out of 5</span>
-          </div>
-          <blockquote className="text-lg italic text-gray-700 mb-4">
-            "The AI matching system found us the perfect apartment in El Poblado
-            that matched all our requirements. The process was seamless and the
-            property exceeded our expectations!"
-          </blockquote>
-          <div className="flex items-center">
-            <div className="h-12 w-12 rounded-full overflow-hidden mr-4">
-              <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Maria"
-                alt="Maria Rodriguez"
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div>
-              <p className="font-semibold">Maria Rodriguez</p>
-              <p className="text-sm text-gray-600">Found home in El Poblado</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

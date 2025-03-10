@@ -158,7 +158,7 @@ const AboutSection = ({
         <Separator className="my-8" />
 
         {/* Contact Information */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid-cols-1 md:grid-cols-2 gap-8 items-center flex">
           <div>
             <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
             <p className="text-gray-600 mb-6">
