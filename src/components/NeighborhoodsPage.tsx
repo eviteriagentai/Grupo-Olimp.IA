@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Button } from "@/components/ui/button";
@@ -449,9 +450,12 @@ const NeighborhoodsPage: React.FC = () => {
                       Discover family-friendly neighborhoods with great schools,
                       parks, and safe streets.
                     </p>
-                    <Button variant="link" className="mt-4">
+                    <Link
+                      to="/neighborhood-guides/families"
+                      className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline mt-4"
+                    >
                       View Guide
-                    </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
@@ -469,9 +473,12 @@ const NeighborhoodsPage: React.FC = () => {
                       Find neighborhoods with great connectivity, coworking
                       spaces, and urban amenities.
                     </p>
-                    <Button variant="link" className="mt-4">
+                    <Link
+                      to="/neighborhood-guides/professionals"
+                      className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline mt-4"
+                    >
                       View Guide
-                    </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
@@ -489,9 +496,12 @@ const NeighborhoodsPage: React.FC = () => {
                       Explore neighborhoods with vibrant nightlife, restaurants,
                       and cultural attractions.
                     </p>
-                    <Button variant="link" className="mt-4">
+                    <Link
+                      to="/neighborhood-guides/lifestyle"
+                      className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline mt-4"
+                    >
                       View Guide
-                    </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
@@ -509,9 +519,12 @@ const NeighborhoodsPage: React.FC = () => {
                       Discover neighborhoods with parks, cycling paths, and
                       outdoor recreation options.
                     </p>
-                    <Button variant="link" className="mt-4">
+                    <Link
+                      to="/neighborhood-guides/active-living"
+                      className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline mt-4"
+                    >
                       View Guide
-                    </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
