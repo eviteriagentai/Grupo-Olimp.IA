@@ -19,7 +19,7 @@ const AboutUsPage: React.FC = () => {
           <div className="absolute inset-0 bg-black/20" />
           <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              About Grupo Olimp.IA
+              About Grupo Olimpia
             </h1>
             <p className="text-xl text-white/90 max-w-2xl">
               Revolutionizing real estate in Medellín with AI-powered property
@@ -57,7 +57,7 @@ const AboutUsPage: React.FC = () => {
             address: "Calle 10 #43E-31, El Poblado, Medellín, Colombia",
             phone: "+57 604 123 4567",
             email: "info@grupo-olimpia.com",
-            website: "www.grupo-olimpia.com",
+            website: "https://grupo-olimpia.com/",
           }}
         />
 

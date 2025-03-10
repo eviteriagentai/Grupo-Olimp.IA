@@ -34,7 +34,7 @@ interface FooterProps {
 
 const Footer = ({
   companyName = "Grupo Olimpia",
-  companyLogo = "/vite.svg",
+  companyLogo = "https://grupo-olimpia.com/vite.svg",
   socialLinks = {
     facebook: "#",
     instagram: "#",

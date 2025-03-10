@@ -79,7 +79,7 @@ const AboutSection = ({
     address: "Calle 10 #43E-31, El Poblado, Medellín, Colombia",
     phone: "+57 604 123 4567",
     email: "info@grupo-olimpia.com",
-    website: "www.grupo-olimpia.com",
+    website: "https://grupo-olimpia.com/",
   },
 }: AboutSectionProps) => {
   // Function to render the appropriate icon based on the icon name
